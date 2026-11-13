@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Chanya Sriprasert</title>
+  <style> 
+    body {font-family: "Promt", Tahoma, sans-serif; background-color: #dffaff;
+      max-width: 720px; margin: 0 auto;}
+    h1 {color: #7856a3;}
+    header {text-align: center;}
+    header img {border-radius: 50%;}
+    p {color: #5fa8d3;}
+    h2 {font-family: "Promt", , sans-serif; color: #9a78c5;}
+    section {
+      background-color: #fefae0; 
+      padding: 16px 24px;
+      margin-bottom: 16px;
+      margin: 10px;
+      border-radius: 12px;
+      color: #0066b6;}
+    .btn {background-color: #f0c000;
+      color: #fff9e3;
+      padding: 10px 20px;
+      border-radius: 12px;
+      cursor: pointer;}
+    .btn:hover {background-color: #f5de5b;
+      color: #a364de;}
+    footer a {max-width: 720px; margin: 0 auto;}
+    footer {
+      margin: 20px
+    }
+    body.dark {
+      background-color: #1e1e2e;
+      color: #f0f0f0;}
+    body.dark h1 {
+      color: #b291db; 
+    }
+    body.dark footer a {
+      color: #b291db;
+    }
+  </style>
+</head>
+  
+<body>
+ <header>
+  <img src="https://raw.githubusercontent.com/chanya-doubleD/cv/ea76796c722087e5a969851c7f4e1586a078b6d4/pokemon-pokemon-fit-ditto-plush-japanese-pokemon-center-exclusive-401086.webp" alt="Metamon" width="120">
+  <h1>
+    Chanya Sriprasert
+    </h1>
+  <p>
+   I will be writing Gary comic book one day.
+    </p>
+   <button class="btn" onclick="toggleDark()">
+     ปรับโหมดมืด
+   </button>
+    </header>
+  
+ <section>
+ <h2>
+   การศึกษา
+  </h2>
+ <ul>
+   <li>Barbie Princess School</li>
+   <li>MWIT</li>
+  </ul>
+  </section>
+  
+ <section>
+ <h2>
+   ทักษะ
+  </h2>
+  <ol>
+    <li>การคิดเชิงคำนวณ</li>
+    <li>การวางแผนและออกแบบผลงาน</li>
+    <li>การทำงานร่วมกับผู้อื่น</li>
+    <li>สืบค้นและจัดกระทำข้อมูล</li>
+  </ol>
+ </section>
+  
+ <footer>
+  ช่องทางการติดต่อ: 011-111-1111 
+   <a href="https://github.com/chanya-doubleD">GitHub</a>
+   <br>
+   <br>
+  <a class="btn" href="chanya.sriprasert@gmail.com"> contact me! </a>
+  </footer>
+  
+ <script>
+   function toggleDark() {document.body.classList.toggle("dark");}
+  </script>
+  
+</body>
+</html>
